@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allexander Martins</title>
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <div>
-            <img src="imagens/logo.png" alt="">
+            <img src="imagens/logo.png" alt="Logo">
         </div>
         <ul>
             <li>
@@ -36,7 +36,7 @@
                 <h5>Front-End Developer</h5>
             </div>
 
-            <div>
+            <div onclick="displayAbout()" id="arrow">
                 <i id="animation" class="fa-solid fa-angles-down"></i>
             </div>
             
@@ -59,6 +59,14 @@
 
     </main>
 
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
 
+        }
+    </script>
 </body>
 </html>
