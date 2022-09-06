@@ -2,12 +2,61 @@
 <html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allexander Martins</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <img src="imagens/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <a href="https://github.com/all3x-martins">GitHub</a>
+            </li>
+            <li>
+                <a href="mailto:allex_martins@proton.me">Email</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/alle.x94/">Instagram</a>
+            </li>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <section class="container">
+            
+            <div class="name">
+                <h1>Allexander Martins</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-angles-down"></i>
+            </div>
+            
+            <div style="display: none;" id="about">
+                <p>Olá, sou o Allexander Martins, sou estudante de Front-End estou a procura da minha primeira oportunidade na area de programação como programador junior<p>
+            </div>
+            
+                <div class="form">
+                <div>
+                    <p>Deixe seu contato!</p>
+                </div>
+                <form action="">
+                    <input type="email" placeholder="Seu melhor email :)">
+                    <button>Enviar!</button>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+   <script src="script/script.js"></script>
 </body>
 </html>

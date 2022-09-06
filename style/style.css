@@ -1,6 +1,4 @@
 @charset "UTF8";
-<<<<<<< Updated upstream
-=======
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap');
 
@@ -60,7 +58,7 @@ ul a {
 }
 
 body {
-    background-image: url(imagens/background.jpg);
+    background-image: url(/imagens/background.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
@@ -147,4 +145,3 @@ body {
     background-position: left bottom;
 
 }
->>>>>>> Stashed changes
