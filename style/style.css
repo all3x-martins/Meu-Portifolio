@@ -58,12 +58,12 @@ ul a {
 }
 
 body {
-    background-image: url(/imagens/background2.jpg);
+    background-image: url(/background2.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
     background-attachment: fixed;
-
+    background-image: ;
 }
 
 .container {
