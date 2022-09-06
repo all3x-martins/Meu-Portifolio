@@ -58,34 +58,40 @@ ul a {
 }
 
 body {
-    background-image: url(/imagens/background.jpg);
+    background-image: url(imagens/background.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .container {
     text-align: center;
+
 }
 
 .container .name h1 {
     font-size: 60px;
+
 }
 
 .container .name h5 {
     font-size: 25px;
+
 }
 
 #about p {
     max-width: 600px;
     margin: 0 auto;
+
 }
 
 #arrow {
     font-size: 25px;
     cursor: pointer;
     animation: blink 1s steps(5, start) infinite;
+
 }
 
 @keyframes blink {
