@@ -60,10 +60,9 @@ ul a {
 body {
     background-image: url(/background2.jpg);
     background-repeat: no-repeat;
-    background-position: center center fixed;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
 .container {
