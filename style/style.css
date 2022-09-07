@@ -58,7 +58,7 @@ ul a {
 }
 
 body {
-    background-image: url(/background2.jpg);
+    background-image: url(../imagens/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
