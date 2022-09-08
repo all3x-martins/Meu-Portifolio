@@ -14,14 +14,15 @@
 
 header {
     display: flex;
+    background-color: #303030;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    padding-bottom: 20px;
    /* border-bottom: 1px solid white;*/
    /*box-shadow: 1px 1px 10px 1px white;*/
-   border-bottom: 15px ridge #a09038 ;
    margin-bottom: 45px;
-
+   
 }
 
 header ul {
@@ -34,17 +35,18 @@ header ul li {
 }
 
 header ul li a:hover {
-    color: #a09038 ;
+    color: rgb(181, 181, 181) ;
     text-decoration: underline;
 
 }
 header ul li a {
     animation: 300ms;
+    color: white;
 
 }
 
 header img {
-width: 150px;
+width: 190px;
 }
 
 ul{
@@ -57,9 +59,15 @@ ul a {
     font-weight: 700;
 }
 
+.icon {
+    color: white;
+    padding-right: 4px;
+}
+
 body {
     background-image: url(../imagens/background.jpg);
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
     background-attachment: fixed;
 
@@ -113,40 +121,40 @@ body {
     display: block !important;
 }
 
-.form {
+.contato {
     width: 40%;
     margin: 0 auto;
     margin-top: 30px;
 
 }
 
-.form input {
-    width: 50%;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-
-}
-
-.form button {
-    width: 15%;
+.contato button {
+    width: 20%;
     padding: 5px 10px;
     background:linear-gradient(to right, #c09717 50%, #9c551b 50%);
     background-size: 200% 100%;
     background-position: right bottom;
-    color: white;
-    font-weight: 600;
     border: none;
     cursor: pointer;
     transition: all 300ms ease-out;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px;
     margin: -5px;
     margin-top: 20px;
     
-    
 }
 
-.form button:hover {
-    background-position: left bottom;
+.contato button a {
+   text-decoration: none;
+   color: #8b7d30; 
+   font-weight: 700;
+}
 
+.email{
+    color: #8b7d30; 
+
+}
+
+.contato button:hover {
+    background-position: left bottom;
+    color: #9c551b;
 }
