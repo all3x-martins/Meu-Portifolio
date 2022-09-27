@@ -59,11 +59,14 @@ ul a {
     font-weight: 700;
 }
 
-.icon {
+.svg {
     color: white;
     padding-right: 4px;
+    width: 1000px;
 }
-
+.menu {
+    padding-left: 4px;
+}
 body {
     background-image: url(../imagens/background.jpg);
     background-repeat: no-repeat;
@@ -157,4 +160,26 @@ body {
 .contato button:hover {
     background-position: left bottom;
     color: #9c551b;
+}
+
+@media (max-width: 520px) {
+   ul li {
+        font-size: 0.95em;
+   }
+
+    header picture img {
+        width: 80px;
+    }
+    .menu {
+        display: none;
+    }
+
+    svg {
+        width: 30px;
+        color: white;
+    }
+
+    .contato button {
+        width: 60%;
+    }
 }
