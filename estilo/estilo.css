@@ -56,7 +56,7 @@ section p {
 }
 
 section.intro {
-    background-image:url(../imagens/background.jpg);
+    background-image:url(/imagens/background.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
