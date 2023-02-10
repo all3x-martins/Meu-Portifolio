@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #212529;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e2022;
+    width: 100vw;
+    height: 15vh;
+   
+    
+}
+
+.logo {
+    width: 210px;
+    padding-top: 14px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+li {
+    justify-content: end;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    height: 85vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.intro {
+    background-image:url(../imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(46, 46, 46);
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100vw;
+    height: 85vh;
+
+}
+section.sobre-mim { 
+    color: white;
+    width: 100vw;
+    height: 85vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.53);
+    background-attachment: fixed;
+    font-size: 0.95em;
+}
+
+section.sobre-mim > p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 0.95em;
+}
+
+section.portifolio {
+    width: 100vw;
+    height: 85vh;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.53);
+    background-attachment: fixed;
+    
+}
+
+.projeto {
+    display: flex;
+    background-color: white;
+    width: 20vw;
+    height: 15vh;
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Special Elite", monospace;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite alternate,
+    typing 5s steps(40) 6s infinite normal;
+    
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 11em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
