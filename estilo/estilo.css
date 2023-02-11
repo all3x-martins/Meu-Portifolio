@@ -45,7 +45,6 @@ section {
     height: 85vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     font-family: var(--fonte3);
     padding-left: 30px;
     font-size: 3.5vw;
@@ -54,7 +53,6 @@ section {
 section.intro {
     background-image:url(../imagens/background.jpg);
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
     background-attachment: fixed;
     background-color: rgb(46, 46, 46);
@@ -103,14 +101,14 @@ section.portifolio {
     font-size: 1em;
     text-align: center;
     margin: 0 auto;
+    margin-top: 35px;
     white-space: nowrap;
     overflow: hidden;
     
 }
 
 .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite alternate,
-    typing 5s steps(40) 6s infinite normal;
+    animation: 500ms steps(40) 0s infinite normal none running blinkCursor, 4s steps(40) 1s 1 normal both running typing;
     
 
 }
