@@ -62,6 +62,12 @@ section.intro {
     height: 85vh;
 
 }
+
+.arrow {
+  text-align: center; 
+  padding-top: 200px;
+}
+
 section.sobre-mim { 
     color: white;
     width: 100vw;
@@ -131,3 +137,29 @@ section.portifolio {
     }
 }
 
+#arrow {
+    font-size: 25px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transform: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+
+}
+
+.active {
+    display: block !important;
+}
